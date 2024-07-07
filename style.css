@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     border: 1px solid white; /* Optional: Adds border around the table */
-     
+    margin:50px; /* Optional */
+    background-color: gray;
+    color:rgb(216, 158, 72);
 }
   
   /* Make each row a flex container in row direction */
@@ -17,8 +19,12 @@
     padding: 8px; /* Add padding for better appearance */
     border: 1px solid #ccc; /* Optional: Adds border around cells */
     box-sizing: border-box; /* Ensure padding and border are included in the width and height */
-  }
+    font-size: 16;
+    font-style:italic;
+    color:black;
+ }
   
+
   /* Optional: Style for the header row */
   .table-row:first-child {
     font-weight: bold;
