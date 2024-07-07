@@ -3,8 +3,8 @@
     flex-direction: column;
     border: 1px solid white; /* Optional: Adds border around the table */
     margin:50px; /* Optional */
-    background-color: gray;
-    color:rgb(216, 158, 72);
+    background-color: rgb(235, 192, 144);
+    color:rgb(72, 110, 216);
 }
   
   /* Make each row a flex container in row direction */
