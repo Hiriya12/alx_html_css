@@ -1,0 +1,27 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white; /* Optional: Adds border around the table */
+     
+}
+  
+  /* Make each row a flex container in row direction */
+  .table-row {
+    display: flex;
+
+  }
+  
+  /* Style the cells */
+  .table-cell {
+    flex: 1; /* Equally distribute the width */
+    padding: 8px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Optional: Adds border around cells */
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  }
+  
+  /* Optional: Style for the header row */
+  .table-row:first-child {
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+  
